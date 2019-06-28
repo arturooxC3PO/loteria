@@ -1,0 +1,6 @@
+kernel - kernel y booting
+user - programas nivel de usuario
+include -  todos los header que deben incluirse
+tools - herramientas para el host
+README - descripcion de como ejecutar con qemu
+Makefile - instrucciones para el make en GNU

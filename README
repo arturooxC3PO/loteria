@@ -1,0 +1,17 @@
+xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix
+Version 6 (v6).  xv6 loosely follows the structure and style of v6,
+but is implemented for a modern x86-based multiprocessor using ANSI C.
+
+BUILDING AND RUNNING XV6
+
+To build xv6 on an x86 ELF machine (like Linux or FreeBSD), run "make".
+On non-x86 or non-ELF machines (like OS X, even on x86), you will
+need to install a cross-compiler gcc suite capable of producing x86 ELF
+binaries.  See http://pdos.csail.mit.edu/6.828/2007/tools.html.
+Then run "make TOOLPREFIX=i386-jos-elf-".
+
+To run xv6, you can use Bochs or QEMU, both PC simulators.
+Bochs makes debugging easier, but QEMU is much faster. 
+To run in Bochs, run "make bochs" and then type "c" at the bochs prompt.
+To run in QEMU, run "make qemu".
+
